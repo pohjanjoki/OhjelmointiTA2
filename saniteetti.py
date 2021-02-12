@@ -43,14 +43,14 @@ def on_jarkeva(syote, alaraja, ylaraja):
         if luku < alaraja:
             raise Exception('Syöttämäsi arvo on alle sallitun')
     except Exception as virheilmoitus:
-        print('Virheilmoitus')
+        print(virheilmoitus)
 
     # Tarkistetaan, eteti syöte ole ylärajan yläpuolella
     try:
         if luku > ylaraja:
             raise Exception('Syöttämäsi arvo on yli sallitun')
     except Exception as virheilmoitus:
-        print('Virheilmoitus')
+        print(virheilmoitus)
 
     # Palautetaan luku
     return luku
