@@ -59,3 +59,5 @@ def on_jarkeva(syote, alaraja, ylaraja):
 # Testetaan toiminta
 tulos = on_jarkeva('sata', 1, 500)
 print(tulos)
+
+# Mac-testi
